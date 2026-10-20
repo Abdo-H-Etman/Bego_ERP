@@ -1,0 +1,72 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Erp.Application.Abstractions/Erp.Application.Abstractions.csproj" />
+    <Project Path="src/BuildingBlocks/Erp.Infrastructure.Abstractions/Erp.Infrastructure.Abstractions.csproj" />
+    <Project Path="src/BuildingBlocks/Erp.SharedKernel/Erp.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Gateway/">
+    <Project Path="src/Gateway/Erp.Gateway/Erp.Gateway.csproj" />
+  </Folder>
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/Erp.Api/Erp.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Localization/">
+    <Project Path="src/Localization/Tax.Egypt/Tax.Egypt.csproj" />
+    <Project Path="src/Localization/Tax.Ksa/Tax.Ksa.csproj" />
+    <Project Path="src/Localization/Tax.Uae/Tax.Uae.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Accounting/">
+    <Project Path="src/Modules/Accounting/Accounting.Api/Accounting.Api.csproj" />
+    <Project Path="src/Modules/Accounting/Accounting.Application/Accounting.Application.csproj" />
+    <Project Path="src/Modules/Accounting/Accounting.Domain/Accounting.Domain.csproj" />
+    <Project Path="src/Modules/Accounting/Accounting.Infrastructure/Accounting.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Erp.Modules.Identity/Erp.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Inventory/">
+    <Project Path="src/Modules/Inventory/Inventory.Api/Inventory.Api.csproj" />
+    <Project Path="src/Modules/Inventory/Inventory.Application/Inventory.Application.csproj" />
+    <Project Path="src/Modules/Inventory/Inventory.Domain/Inventory.Domain.csproj" />
+    <Project Path="src/Modules/Inventory/Inventory.Infrastructure/Inventory.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Metadata/">
+    <Project Path="src/Modules/Metadata/Erp.Modules.Metadata/Erp.Modules.Metadata.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Notifications/">
+    <Project Path="src/Modules/Notifications/Erp.Modules.Notifications/Erp.Modules.Notifications.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Purchasing/">
+    <Project Path="src/Modules/Purchasing/Purchasing.Api/Purchasing.Api.csproj" />
+    <Project Path="src/Modules/Purchasing/Purchasing.Application/Purchasing.Application.csproj" />
+    <Project Path="src/Modules/Purchasing/Purchasing.Domain/Purchasing.Domain.csproj" />
+    <Project Path="src/Modules/Purchasing/Purchasing.Infrastructure/Purchasing.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Sales/">
+    <Project Path="src/Modules/Sales/Sales.Api/Sales.Api.csproj" />
+    <Project Path="src/Modules/Sales/Sales.Application/Sales.Application.csproj" />
+    <Project Path="src/Modules/Sales/Sales.Domain/Sales.Domain.csproj" />
+    <Project Path="src/Modules/Sales/Sales.Infrastructure/Sales.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Tenancy/">
+    <Project Path="src/Modules/Tenancy/Tenancy.Api/Tenancy.Api.csproj" />
+    <Project Path="src/Modules/Tenancy/Tenancy.Application/Tenancy.Application.csproj" />
+    <Project Path="src/Modules/Tenancy/Tenancy.Domain/Tenancy.Domain.csproj" />
+    <Project Path="src/Modules/Tenancy/Tenancy.Infrastructure/Tenancy.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Workflow/">
+    <Project Path="src/Modules/Workflow/Erp.Modules.Workflow/Erp.Modules.Workflow.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/Erp.ArchitectureTests/Erp.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/Erp.UnitTests/Erp.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/Erp.IntegrationTests/Erp.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

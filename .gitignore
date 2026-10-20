@@ -1,0 +1,42 @@
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / VS Code
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Test Results
+TestResults/
+[Tt]est[Rr]esult*/
+coverage.cobertura.xml
+*.trx
+
+## Dotnet tooling
+.dotnet/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## OS Files
+.DS_Store
+Thumbs.db

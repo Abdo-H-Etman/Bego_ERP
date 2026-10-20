@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\Erp.Application.Abstractions\Erp.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\Erp.Infrastructure.Abstractions\Erp.Infrastructure.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Modules\Tenancy\Tenancy.Api\Tenancy.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Tenancy\Tenancy.Infrastructure\Tenancy.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Accounting\Accounting.Api\Accounting.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Accounting\Accounting.Infrastructure\Accounting.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Inventory\Inventory.Api\Inventory.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Inventory\Inventory.Infrastructure\Inventory.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Sales\Sales.Api\Sales.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Sales\Sales.Infrastructure\Sales.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Purchasing\Purchasing.Api\Purchasing.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Purchasing\Purchasing.Infrastructure\Purchasing.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Localization\Tax.Egypt\Tax.Egypt.csproj" />
+    <ProjectReference Include="..\..\Localization\Tax.Ksa\Tax.Ksa.csproj" />
+    <ProjectReference Include="..\..\Localization\Tax.Uae\Tax.Uae.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\Erp.Modules.Identity\Erp.Modules.Identity.csproj" />
+    <ProjectReference Include="..\..\Modules\Metadata\Erp.Modules.Metadata\Erp.Modules.Metadata.csproj" />
+    <ProjectReference Include="..\..\Modules\Workflow\Erp.Modules.Workflow\Erp.Modules.Workflow.csproj" />
+    <ProjectReference Include="..\..\Modules\Notifications\Erp.Modules.Notifications\Erp.Modules.Notifications.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+  </ItemGroup>
+</Project>
